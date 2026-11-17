@@ -1,0 +1,33 @@
+internal class Program
+{
+    private static void Main(string[] args)
+    {
+        Console.WriteLine("Hello, World!");
+
+        int brojGodina = 34;
+        double visina = 1.7;
+        float visinaFloat = 1.8f;
+        decimal visinaDecimal = 1.65m;
+        string ime = "Milan";
+        bool student = true;
+
+        Console.WriteLine("Moje ime je: ");
+        Console.WriteLine(ime);
+
+        Console.WriteLine("Unesi novo ime:");
+        ime = Console.ReadLine();
+        Console.WriteLine(ime);
+
+        Console.WriteLine("Promeni godine");
+        brojGodina = Convert.ToInt32(Console.ReadLine());
+        brojGodina = 22;
+        Console.WriteLine(brojGodina);
+
+        Console.WriteLine("Promeni visinu");
+        visina = Convert.ToDouble(Console.ReadLine());
+        visinaFloat = Convert.ToSingle(Console.ReadLine());
+        Console.WriteLine(visina);
+
+        Console.ReadLine();
+    }
+}
