@@ -1,0 +1,24 @@
+    private static void Main(string[] args)
+    {
+        Console.WriteLine("Hello, World!");
+
+        string ime;
+        int brojGodina;
+
+        Console.WriteLine("Napravili smo promenljive bez vrednosti");
+
+        ime = Console.ReadLine();
+        brojGodina = Convert.ToInt32(Console.ReadLine());
+
+        Console.WriteLine("Dodelili smo im vrednost");
+
+        Console.WriteLine(ime);
+        Console.WriteLine(brojGodina);
+
+        Console.WriteLine("Ispisali smo vrednost");
+
+        Console.WriteLine("Ja sam "+ime+" i imam "+brojGodina+ " godina");
+
+        Console.Write(ime);
+        Console.Write(brojGodina);
+    }
