@@ -1,0 +1,9 @@
+    private static void Main(string[] args)
+    {
+
+        int zbir = 5 + 10; //Operatori +, -, *, /, %
+
+        // % je operator koji proverava ostatak priliko deljenja
+        Console.WriteLine(zbir);
+
+    }
