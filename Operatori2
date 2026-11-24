@@ -1,0 +1,51 @@
+internal class Program
+{
+    private static void Main(string[] args)
+    {
+        Console.WriteLine("Hello, World!");
+
+        //Operatori + , - , * , / , %
+        //int zbir;
+        int a = 2;
+        int b = 3;
+        int zbir = a + b;
+        int razlika = a - b;
+        int prozivod = a * b;
+        double kolicnik = Convert.ToDouble(b) / Convert.ToDouble(a);
+        double ostatak = b % a;
+        if (b % a == 0)
+        {
+            Console.WriteLine("Nema ostatak");
+        }
+        else
+        {
+            Console.WriteLine("Ima ostatak");
+        }
+        Console.WriteLine(zbir);
+        Console.WriteLine(razlika);
+        Console.WriteLine(prozivod);
+        Console.WriteLine(kolicnik);
+        Console.WriteLine(ostatak);
+
+        //Logicki operatori ==, !=, <, >, <=, >=
+
+        Console.WriteLine(a == b);
+        Console.WriteLine(a != b);
+        Console.WriteLine(a <= b);
+        Console.WriteLine(a >= b);
+        Console.WriteLine(a < b);
+        Console.WriteLine(a > b);
+
+        //Operatori dodeljivanja vrednosti =, +=, -=, *=, /=
+        int c = 25;
+        Console.WriteLine(c);
+        c += 5;     //Je isto sto i c=c+5
+        Console.WriteLine(c);
+        c -= 5;     //c=c-5
+        Console.WriteLine(c);
+        c *= 5;     //c=c*5
+        Console.WriteLine(c);
+        c /= 5;     //c=c/5
+        Console.WriteLine(c);           
+    }
+}
